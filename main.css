@@ -52,11 +52,12 @@ a:active{
 }
 
 ul#horizontal-list{
-    min-width: 696px;
     list-style: none;
     padding-top: 20px;
+    align-content: center
 }
 
 ul#horizontal-list li{
     display: inline;
+    align-content: center;
 }
