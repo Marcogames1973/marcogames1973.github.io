@@ -43,7 +43,8 @@ a:active{
 }
 
 #menu-outer{
-    height: 84px;
+    height: 112px;
+    background-color: #b3b3b3;
 }
 
 .table{
@@ -60,4 +61,72 @@ ul#horizontal-list{
 ul#horizontal-list li{
     display: inline;
     align-content: center;
+}
+
+@media screen and (max-wdith:481px){
+    body {
+        background: url('background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #212121;
+    }
+    
+    h1, h2, h3, h4, p{
+        color: white;
+    }
+    
+    a:link{
+        background-color: #212121;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    a:visited{
+        background-color: #212121;
+        color: gray;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    a:hover{
+        background-color: #212121;
+        color: red;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    a:active{
+        background-color: #212121;
+        color: blue;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    #menu-outer{
+        height: 112px;
+        background-color: #b3b3b3;
+    }
+    
+    .table{
+        display: table;
+        margin: 0 auto;
+    }
+    
+    ul#horizontal-list{
+        list-style: none;
+        padding-top: 20px;
+        align-content: center
+    }
+    
+    ul#horizontal-list li{
+        display: inline;
+        align-content: center;
+    }
+    
 }
