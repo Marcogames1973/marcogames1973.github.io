@@ -1,0 +1,35 @@
+body{
+    background-color: #b3b3b3;
+}
+
+a:link{
+    background-color: #212121;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:visited{
+    background-color: #212121;
+    color: gray;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #212121;
+    color: red;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:active{
+    background-color: #212121;
+    color: blue;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
