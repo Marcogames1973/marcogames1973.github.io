@@ -6,11 +6,15 @@ body {
     background-color: #212121;
 }
 
-h1, h2, h3, h4, p{
+h1,
+h2,
+h3,
+h4,
+p {
     color: white;
 }
 
-a:link{
+a:link {
     background-color: #212121;
     color: white;
     padding: 14px 25px;
@@ -18,7 +22,7 @@ a:link{
     display: inline-block;
 }
 
-a:visited{
+a:visited {
     background-color: #212121;
     color: gray;
     padding: 14px 25px;
@@ -26,7 +30,7 @@ a:visited{
     display: inline-block;
 }
 
-a:hover{
+a:hover {
     background-color: #212121;
     color: red;
     padding: 14px 25px;
@@ -34,7 +38,7 @@ a:hover{
     display: inline-block;
 }
 
-a:active{
+a:active {
     background-color: #212121;
     color: blue;
     padding: 14px 25px;
@@ -42,23 +46,23 @@ a:active{
     display: inline-block;
 }
 
-#menu-outer{
+#menu-outer {
     height: 112px;
     background-color: #b3b3b3;
 }
 
-.table{
+.table {
     display: table;
     margin: 0 auto;
 }
 
-ul#horizontal-list{
+ul#horizontal-list {
     list-style: none;
     padding-top: 20px;
     align-content: center
 }
 
-ul#horizontal-list li{
+ul#horizontal-list li {
     display: inline;
     align-content: center;
 }
