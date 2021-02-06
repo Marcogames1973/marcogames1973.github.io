@@ -1,76 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<meta charset="UTF=8">
-	<meta name="description" content="Marco and Mary's Basic Portfolio">
-	<meta name="viewport" content="width-device-width, initial-scale=1">
-	<title>Marco and Mary's Portfolio Homepage</title>
+    <link rel="stylesheet" type="text/css" href="indexcss.css">
+    <meta charset="UTF=8">
+    <meta name="description" content="Marco and Mary's Basic Portfolio">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Marco and Mary's Portfolio Homepage</title>
 </head>
+
 <body>
-	<header class="text">
-		<!-- Main Introduction -->
-		<h1><center>Mark and Mary</center></h1>
-		<h2><center>Visual artists</center></h2>
-		<h3><center>Welcome to our site!</center></h3>
-		<hr/>
-		<nav>
-			<div id="menu-outer">
-				<div class="table">
-					<ul id="horizontal-list">
-						<li><a class="active" href="index.html">Home</a></li>
-						<li><a class="inactive" href="portfolio.html">Portfolio</a></li>
-						<li><a class="inactive" href="Classes/cgt/cgt116.html">CGT116</a></li>
-						<li><a class="inactive" href="Classes/tech120/tech120.html">TECH120</a></li>
-						<li><a class="inactive" href="contact-us.html">Contact us!</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<hr/>
-	</header>
-	
-	<main>
-		<article>
-			<section>
-				<div  style="background-color: #212121;">
-					<h4>
-						About Mark
-					</h4>
-					<p  style="color:white;">
-						Hello! I am a 3D artist currently enrolled in Purdue Polytechnic. Currently I am learning how to create realistic 3D models.
-					</p>
-					<p>
-						To the right is an animation I made for the fun of it.
-					</p>
-				</div>
-			</section>
-			<section>
-				<di class="right-video">
-					<p style="text-align:right;"><iframe width="560" height="315" src="https://www.youtube.com/embed/j_ZsjtnJaiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-				</di>
-			</section>
-				
-
-			<section>
-				<article>
-					<div  style="background-color: #212121;">
-						<h4>
-							About Mary
-						</h4>
-						<p>
-							Hi everyone! I am a visual designer who makes logos, art, and 3D renders with Mark's stuff!
-						</p>
-						<p>
-							The background of this site was made by me!
-						</p>
-					</div>
-				</article>
-			</section>
-
-		</article>
-		
-	</main>
-
+    <div id="bruh">
+        <header class="text">
+            <!-- Main Introduction -->
+            <h1>
+                <center>Mark and Mary</center>
+            </h1>
+            <h2>
+                <center>Visual artists</center>
+            </h2>
+            <h3>
+                <center>Welcome to our site!</center>
+            </h3>
+            <hr/>
+            <nav>
+                <div id="menu-outer">
+                    <div class="table">
+                        <ul id="horizontal-list">
+                            <li><a class="active" href="home.html" target="main-display">Home</a></li>
+                            <li><a class="inactive" href="portfolio.html" target="main-display">Portfolio</a></li>
+                            <li><a class="inactive" href="Classes/cgt/cgt116.html" target="main-display">CGT116</a></li>
+                            <li><a class="inactive" href="Classes/tech120/tech120.html" target="main-display">TECH120</a></li>
+                            <li><a class="inactive" href="contact-us.html" target="main-display">Contact us!</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <hr/>
+        </header>
+        <iframe id="iFramesToSize" name="main-display" style="overflow: hidden; height: 100%; width: 100%; position: absolute;" title="main" src="home.html" frameborder="0"></iframe>
+    </div>
 </body>
+
 </html>

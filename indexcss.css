@@ -1,5 +1,10 @@
 body {
-    background-color: #b3b3b3;
+    height: 100%;
+    background: url('background2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #212121;
 }
 
 a:link {
@@ -43,4 +48,13 @@ ul#horizontal-list {
 ul#horizontal-list li {
     display: inline;
     align-content: center;
+}
+
+div#menu-outer {
+    text-align: center;
+}
+
+div#bruh {
+    height: 100%;
+    overflow: hidden
 }
